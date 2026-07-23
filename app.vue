@@ -6,6 +6,7 @@
       <HeroSection />
       <HowItWorks />
       <BookSection />
+      <TranslatorStory />
       <BonusSection />
       <ScheduleSection />
       <MentorsSection />

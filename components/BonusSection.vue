@@ -4,18 +4,14 @@
       <div class="bonus__card">
         <span class="eyebrow eyebrow--light">Bônus exclusivo</span>
         <h2 class="bonus__title">
-          Existe uma entrevista com Thomas McKenzie que
-          <span>ninguém nunca assistiu</span>
+          E você vai assistir àquela entrevista.
+          <span>Antes de todo mundo.</span>
         </h2>
         <p class="bonus__text">
-          O Rev. Douglas Araujo gravou uma conversa com o autor para o canal
-          <strong>Teologueiros</strong>. O vídeo nunca foi ao ar. Com o falecimento de
-          Thomas, a gravação ficou guardada. Até agora.
-        </p>
-        <p class="bonus__text">
-          No clube, você assiste a esse registro histórico
-          <strong>antes de qualquer outra pessoa</strong>: o próprio autor falando sobre o
-          Caminho que você estará trilhando na leitura.
+          A conversa que o Rev. Douglas gravou com o autor nunca foi ao ar. Guardada desde a
+          partida de Thomas, ela ganha vida pela primeira vez com os participantes deste
+          clube. É o próprio McKenzie falando sobre o Caminho que você estará trilhando na
+          leitura.
         </p>
         <div class="bonus__video">
           <iframe
