@@ -87,11 +87,15 @@ function trackTelegram() {
 }
 
 // Dispara o evento de conversão para o Pixel (se estiver ativo).
+// Tenta descobrir o valor pela oferta que a Hotmart pode anexar na URL (?off=CÓDIGO).
 // Obs.: a conversão oficial de venda deve ser configurada também na integração
 // da Hotmart com a Meta, pois é ela quem confirma o pagamento.
 onMounted(() => {
   const w = window as { fbq?: (a: string, b: string, c?: object) => void }
-  if (w.fbq) w.fbq('track', 'Purchase', { currency: 'BRL', value: 120 })
+  if (!w.fbq) return
+  const off = new URLSearchParams(window.location.search).get('off')
+  const value = off === '7gcuuxen' ? 130 : 120 // 7gcuuxen = clube + ebook
+  w.fbq('track', 'Purchase', { currency: 'BRL', value })
 })
 </script>
 

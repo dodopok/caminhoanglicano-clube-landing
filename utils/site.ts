@@ -26,8 +26,8 @@ export const SITE = {
   // Link do grupo do Telegram (lembretes, materiais e links dos encontros)
   telegramGrupo: 'https://t.me/+lBWaJRzMUV4xZjcx',
 
-  // TODO: cole o ID do Pixel da Meta (só números). Enquanto vazio, nada é carregado.
-  metaPixelId: '',
+  // ID do Pixel da Meta (só números). Enquanto vazio, nada é carregado.
+  metaPixelId: '2027533274797399',
 
   // TODO (opcional): ID do Google Analytics 4, formato "G-XXXXXXX"
   ga4Id: '',
