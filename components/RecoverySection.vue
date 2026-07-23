@@ -4,19 +4,19 @@
       <div>
         <h2>Ainda não decidiu?</h2>
         <p>
-          Tudo bem, decisão boa se toma com calma. Entre no grupo do WhatsApp e receba um
+          Tudo bem, decisão boa se toma com calma. Entre no grupo do Telegram e receba um
           lembrete antes das inscrições fecharem, além de conteúdos sobre o livro e a
           tradição anglicana.
         </p>
       </div>
       <a
-        :href="SITE.whatsappGrupo"
-        class="btn btn--whatsapp"
+        :href="SITE.telegramGrupo"
+        class="btn btn--telegram"
         rel="noopener"
         @click="trackLead"
       >
         <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
-          <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.4-3c-.3-.4 0-.5.1-.7l.5-.6c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2l-.3-.4Z"/>
+          <path d="M21.9 4.3 18.5 20c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-4.9L17.6 6c.4-.3-.1-.5-.6-.2L6.9 12.1l-4.8-1.5c-1-.3-1-1 .2-1.5L20.7 2.4c.9-.3 1.6.2 1.2 1.9Z"/>
         </svg>
         Quero receber o lembrete
       </a>
@@ -58,15 +58,15 @@ function trackLead() {
   font-size: 0.98rem;
 }
 
-.btn--whatsapp {
-  background: #1faa55;
+.btn--telegram {
+  background: #2aabee;
   color: #fff;
   white-space: nowrap;
-  box-shadow: 0 8px 24px rgba(31, 170, 85, 0.35);
+  box-shadow: 0 8px 24px rgba(42, 171, 238, 0.35);
 }
 
-.btn--whatsapp:hover {
-  background: #178a45;
+.btn--telegram:hover {
+  background: #1d8fca;
 }
 
 @media (max-width: 720px) {
@@ -76,7 +76,7 @@ function trackLead() {
     gap: 22px;
   }
 
-  .btn--whatsapp {
+  .btn--telegram {
     width: 100%;
   }
 }

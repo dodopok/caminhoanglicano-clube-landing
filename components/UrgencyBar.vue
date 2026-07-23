@@ -4,7 +4,7 @@
       <ClientOnly>
         <p v-if="encerrado">
           As inscrições desta turma foram encerradas.
-          <a :href="SITE.whatsappGrupo" rel="noopener">Entre na lista de espera da próxima →</a>
+          <a :href="SITE.telegramGrupo" rel="noopener">Entre na lista de espera da próxima →</a>
         </p>
         <p v-else-if="restante">
           ⏳ <strong>As inscrições fecham em</strong>
