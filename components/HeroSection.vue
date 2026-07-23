@@ -10,7 +10,7 @@
         <p class="hero__lead">
           O livro que já apresentou o anglicanismo a milhares de cristãos, lido em
           <strong>5 encontros ao vivo</strong> com o <strong>Rev. Douglas Araujo</strong>,
-          tradutor da obra, e a <strong>Rev. Cynthia Muniz</strong>. Toda quarta-feira, às
+          tradutor da obra, e a <strong>Revda. Cynthia Muniz</strong>. Toda quarta-feira, às
           20h, de 05/08 a 02/09.
         </p>
         <ul class="hero__bullets">

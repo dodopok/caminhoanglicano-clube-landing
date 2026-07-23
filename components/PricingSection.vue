@@ -214,7 +214,27 @@ import { SITE } from '~/utils/site'
 }
 
 @media (max-width: 800px) {
+  .pricing {
+    padding-top: 32px;
+  }
+
+  .pricing__head .eyebrow {
+    margin-bottom: 10px;
+  }
+
+  .pricing__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.4em;
+  }
+
+  .pricing__lead {
+    font-size: 0.98rem;
+    margin-bottom: 0;
+  }
+
   .pricing__grid {
+    margin-top: 26px;
+    gap: 18px;
     grid-template-columns: 1fr;
   }
 

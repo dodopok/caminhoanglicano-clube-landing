@@ -3,7 +3,7 @@
     <div class="container footer__inner">
       <p>
         <strong>Clube do Livro — O Caminho Anglicano</strong><br />
-        Com Rev. Douglas Araujo e Rev. Cynthia Muniz
+        Com Rev. Douglas Araujo e Revda. Cynthia Muniz
       </p>
       <p class="footer__small">
         "O Caminho Anglicano", de Thomas McKenzie · Tradução: Douglas Araujo<br />

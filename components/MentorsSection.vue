@@ -28,12 +28,12 @@
           <img
             class="mentors__avatar mentors__avatar--blue"
             src="/images/cynthia.avif"
-            alt="Foto da Rev. Cynthia Muniz"
+            alt="Foto da Revda. Cynthia Muniz"
             loading="lazy"
             width="120"
             height="120"
           />
-          <h3>Rev. Cynthia Muniz</h3>
+          <h3>Revda. Cynthia Muniz</h3>
           <p class="mentors__role">Teóloga e professora</p>
           <p>
             Presbítera anglicana, bacharel em Teologia pela FTSA e especialista em Novo

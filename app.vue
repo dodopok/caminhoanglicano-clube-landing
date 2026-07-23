@@ -22,7 +22,7 @@ import { SITE, FAQ } from '~/utils/site'
 
 const title = 'Clube do Livro O Caminho Anglicano | 5 encontros ao vivo com o tradutor'
 const description =
-  'Leia "O Caminho Anglicano" de Thomas McKenzie com o Rev. Douglas Araujo (tradutor da obra) e a Rev. Cynthia Muniz. 5 encontros ao vivo, entrevista inédita com o autor e materiais exclusivos. De 05/08 a 02/09, quartas às 20h.'
+  'Leia "O Caminho Anglicano" de Thomas McKenzie com o Rev. Douglas Araujo (tradutor da obra) e a Revda. Cynthia Muniz. 5 encontros ao vivo, entrevista inédita com o autor e materiais exclusivos. De 05/08 a 02/09, quartas às 20h.'
 const ogImage = `${SITE.url}/images/livro-mesa.jpeg`
 
 useSeoMeta({
@@ -64,7 +64,7 @@ useHead({
             image: [ogImage],
             organizer: [
               { '@type': 'Person', name: 'Rev. Douglas Araujo' },
-              { '@type': 'Person', name: 'Rev. Cynthia Muniz' },
+              { '@type': 'Person', name: 'Revda. Cynthia Muniz' },
             ],
             offers: [
               {
