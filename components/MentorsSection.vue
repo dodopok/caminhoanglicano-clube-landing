@@ -5,6 +5,10 @@
       <h2 class="section-title">
         Quem vai <span class="accent-blue">ler com você</span>
       </h2>
+      <p class="section-lead">
+        Dois olhares que se completam: a vivência de quem traduziu cada página e o rigor de
+        quem preside a Comissão de Teologia da Rede Episcopal Brasileira.
+      </p>
       <div class="mentors__grid">
         <article class="mentors__card">
           <img
@@ -34,12 +38,12 @@
             height="120"
           />
           <h3>Revda. Cynthia Muniz</h3>
-          <p class="mentors__role">Teóloga e professora</p>
+          <p class="mentors__role">Teóloga · Comissão de Teologia da REB</p>
           <p>
-            Presbítera anglicana, bacharel em Teologia pela FTSA e especialista em Novo
-            Testamento, com mestrado pela FSP-USP. Atua como professora, preletora e autora,
-            escrevendo para revistas e integrando o time do <strong>BTCast</strong>, um dos
-            maiores podcasts de teologia do Brasil.
+            Presbítera anglicana e <strong>presidente da Comissão de Teologia da Rede
+            Episcopal Brasileira</strong>. Bacharel em Teologia pela FTSA e especialista em
+            Novo Testamento, atua como professora, preletora e autora, e integra o time do
+            <strong>BTCast</strong>, um dos maiores podcasts de teologia do Brasil.
           </p>
         </article>
       </div>
