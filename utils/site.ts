@@ -23,8 +23,8 @@ export const SITE = {
   // (ex.: para youtube.com/watch?v=abc123, o ID é "abc123")
   youtubeTeaserId: '',
 
-  // TODO: cole o link do grupo/canal do Telegram para lembretes
-  telegramGrupo: 'https://t.me/SEU-LINK-AQUI',
+  // Link do grupo do Telegram (lembretes, materiais e links dos encontros)
+  telegramGrupo: 'https://t.me/+lBWaJRzMUV4xZjcx',
 
   // TODO: cole o ID do Pixel da Meta (só números). Enquanto vazio, nada é carregado.
   metaPixelId: '',
