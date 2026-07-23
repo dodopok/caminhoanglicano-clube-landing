@@ -19,14 +19,14 @@
           <em>O Caminho Anglicano</em>, do Rev. Thomas McKenzie, é um guia para todos que
           desejam seguir Jesus como cristãos anglicanos. Escrito tanto para iniciantes quanto
           para quem quer se aprofundar, o livro responde a
-          <strong>centenas de perguntas sobre história, teologia e adoração</strong> — tudo em
+          <strong>centenas de perguntas sobre história, teologia e adoração</strong>, em
           linguagem acessível e direta.
         </p>
         <p>
-          Conheça este ramo antigo, mas em rápido crescimento, do Corpo de Cristo. E leia na
-          melhor companhia possível: a tradução para o português foi feita pelo
-          <strong>Rev. Douglas Araujo</strong>, que vai guiar o clube compartilhando os
-          bastidores e as riquezas de cada capítulo.
+          É a porta de entrada para um ramo antigo e em rápido crescimento do Corpo de
+          Cristo. E você vai ler na melhor companhia possível: quem traduziu cada uma dessas
+          páginas para o português, o <strong>Rev. Douglas Araujo</strong>, estará ao seu
+          lado para contar os bastidores e destrinchar as riquezas de cada capítulo.
         </p>
         <blockquote class="book__quote">
           "Deixe que este guia o acompanhe enquanto você trilha o Caminho Anglicano."
@@ -44,6 +44,14 @@
   grid-template-columns: 0.9fr 1.1fr;
   gap: 56px;
   align-items: center;
+}
+
+.book__inner > * {
+  min-width: 0;
+}
+
+.book__photo img {
+  width: 100%;
 }
 
 .book__photo img {
@@ -70,6 +78,11 @@
   .book__photo img {
     max-width: 420px;
     margin: 0 auto;
+  }
+
+  .book__quote {
+    font-size: 1rem;
+    padding: 14px 18px;
   }
 }
 </style>

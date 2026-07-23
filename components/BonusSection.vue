@@ -4,18 +4,18 @@
       <div class="bonus__card">
         <span class="eyebrow eyebrow--light">Bônus exclusivo</span>
         <h2 class="bonus__title">
-          Uma entrevista <span>inédita</span> com o autor — que você verá antes de todo mundo
+          Existe uma entrevista com Thomas McKenzie que
+          <span>ninguém nunca assistiu</span>
         </h2>
         <p class="bonus__text">
-          O Rev. Thomas McKenzie partiu deixando um legado imenso para a igreja. Antes disso, o
-          Rev. Douglas Araujo gravou com ele uma entrevista para o canal
-          <strong>Teologueiros</strong> — um material que <strong>nunca foi publicado</strong>,
-          em nenhum lugar.
+          O Rev. Douglas Araujo gravou uma conversa com o autor para o canal
+          <strong>Teologueiros</strong>. O vídeo nunca foi ao ar. Com o falecimento de
+          Thomas, a gravação ficou guardada. Até agora.
         </p>
         <p class="bonus__text">
-          Os participantes do clube terão <strong>acesso em primeira mão</strong> a esse
-          registro histórico: o autor falando, com suas próprias palavras, sobre o Caminho que
-          você estará trilhando na leitura.
+          No clube, você assiste a esse registro histórico
+          <strong>antes de qualquer outra pessoa</strong>: o próprio autor falando sobre o
+          Caminho que você estará trilhando na leitura.
         </p>
         <ul class="bonus__list">
           <li>🎬 Vídeo inédito e exclusivo da entrevista com Thomas McKenzie</li>

@@ -3,10 +3,10 @@
     <div class="container">
       <span class="eyebrow">Cronograma</span>
       <h2 class="section-title">
-        5 quartas-feiras para <span class="accent-red">mudar sua forma de ver a fé</span>
+        O percurso, <span class="accent-red">semana a semana</span>
       </h2>
       <p class="section-lead">
-        Sempre às <strong>20h (horário de Brasília)</strong>, online e ao vivo — com gravação
+        Sempre às <strong>20h (horário de Brasília)</strong>, online e ao vivo, com gravação
         disponível depois.
       </p>
       <ol class="schedule__list">

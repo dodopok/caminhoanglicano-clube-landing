@@ -48,7 +48,7 @@ export const FAQ = [
   {
     pergunta: 'Preciso ser anglicano para participar?',
     resposta:
-      'Não! O clube é para qualquer pessoa interessada em conhecer a tradição anglicana — curiosos, iniciantes ou quem já caminha na tradição e quer se aprofundar. O livro foi escrito exatamente para esses dois públicos.',
+      'Não! O clube é para qualquer pessoa interessada em conhecer a tradição anglicana: curiosos, iniciantes ou quem já caminha na tradição e quer se aprofundar. O livro foi escrito exatamente para esses públicos.',
   },
   {
     pergunta: 'Preciso ter lido o livro antes de começar?',
@@ -83,6 +83,6 @@ export const FAQ = [
   {
     pergunta: 'O que é o vídeo inédito com o autor?',
     resposta:
-      'É uma entrevista com o Rev. Thomas McKenzie gravada pelo Rev. Douglas Araujo para o canal Teologueiros — e que nunca foi publicada. Os participantes do clube terão acesso em primeira mão a esse material histórico.',
+      'É uma entrevista com o Rev. Thomas McKenzie gravada pelo Rev. Douglas Araujo para o canal Teologueiros, e que nunca foi publicada. Os participantes do clube terão acesso em primeira mão a esse material histórico.',
   },
 ]
