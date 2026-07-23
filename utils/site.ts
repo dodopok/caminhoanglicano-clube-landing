@@ -6,9 +6,9 @@ export const SITE = {
   // TODO: coloque aqui o domínio final do site (usado em SEO/Open Graph)
   url: 'https://clubedolivro.caminhoanglicano.com.br',
 
-  // TODO: cole aqui os links de checkout da Hotmart
-  checkoutClube: 'https://pay.hotmart.com/SEU-LINK-CLUBE', // R$ 120 — só o clube
-  checkoutClubeComLivro: 'https://pay.hotmart.com/SEU-LINK-CLUBE-LIVRO', // R$ 130 — clube + ebook
+  // Links de checkout da Hotmart (produto W106849662K, ofertas por ?off=)
+  checkoutClube: 'https://pay.hotmart.com/W106849662K?off=x38ny3lg', // R$ 120 — só o clube
+  checkoutClubeComLivro: 'https://pay.hotmart.com/W106849662K?off=7gcuuxen', // R$ 130 — clube + ebook
 
   nome: 'Clube do Livro — O Caminho Anglicano',
   inicio: '2026-08-05',
