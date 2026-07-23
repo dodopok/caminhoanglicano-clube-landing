@@ -1,0 +1,194 @@
+:root {
+  /* Paleta extraída da capa do livro */
+  --cream: #f4e7d7;
+  --cream-soft: #faf3e8;
+  --cream-dark: #eadbc6;
+  --red: #7b3730;
+  --red-dark: #632b25;
+  --blue: #3c5866;
+  --blue-dark: #2e454f;
+  --olive: #7c8355;
+  --ink: #3b3a2e;
+  --gold: #c98f2e;
+  --white: #fffdf9;
+
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Lora', Georgia, serif;
+
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(59, 58, 46, 0.12);
+  --shadow-lg: 0 18px 50px rgba(59, 58, 46, 0.2);
+  --container: 1120px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.06rem;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--cream);
+  /* textura sutil de papel, como a capa */
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(59, 58, 46, 0.018) 0px,
+    rgba(59, 58, 46, 0.018) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+  margin: 0 0 0.6em;
+  color: var(--ink);
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: var(--red);
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 88px 0;
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: 60px 0;
+  }
+}
+
+/* Etiqueta estilo "UM GUIA PRÁTICO" da capa */
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cream-soft);
+  background: var(--ink);
+  padding: 7px 16px;
+  clip-path: polygon(0 0, 100% 0, 96% 50%, 100% 100%, 0 100%);
+  margin-bottom: 18px;
+}
+
+.eyebrow--light {
+  background: var(--cream-soft);
+  color: var(--ink);
+}
+
+.section-title {
+  font-size: clamp(1.7rem, 3.6vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  max-width: 720px;
+}
+
+.section-title .accent-red {
+  color: var(--red);
+}
+
+.section-title .accent-blue {
+  color: var(--blue);
+}
+
+.section-lead {
+  font-size: 1.13rem;
+  max-width: 660px;
+  opacity: 0.9;
+}
+
+/* Botões */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 16px 34px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn--primary {
+  background: var(--red);
+  color: var(--cream-soft);
+  box-shadow: 0 8px 24px rgba(123, 55, 48, 0.35);
+}
+
+.btn--primary:hover {
+  background: var(--red-dark);
+  box-shadow: 0 12px 30px rgba(123, 55, 48, 0.45);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+.btn--ghost:hover {
+  background: var(--ink);
+  color: var(--cream-soft);
+}
+
+.btn--light {
+  background: var(--cream-soft);
+  color: var(--red);
+}
+
+.btn--block {
+  width: 100%;
+}
+
+.btn--lg {
+  font-size: 1.12rem;
+  padding: 19px 42px;
+}
+
+.text-center {
+  text-align: center;
+}

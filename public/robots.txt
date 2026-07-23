@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO: ajuste para o domínio final
+Sitemap: https://clubedolivro.caminhoanglicano.com.br/sitemap.xml
