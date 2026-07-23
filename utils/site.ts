@@ -3,8 +3,8 @@
  * TODO: troque os valores marcados antes de publicar.
  */
 export const SITE = {
-  // TODO: coloque aqui o domínio final do site (usado em SEO/Open Graph)
-  url: 'https://clubedolivro.caminhoanglicano.com.br',
+  // Domínio final do site (usado em SEO/Open Graph)
+  url: 'https://clube.caminhoanglicano.com.br',
 
   // Links de checkout da Hotmart (produto W106849662K, ofertas por ?off=)
   checkoutClube: 'https://pay.hotmart.com/W106849662K?off=x38ny3lg', // R$ 120 — só o clube

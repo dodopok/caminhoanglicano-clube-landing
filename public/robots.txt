@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
 
-# TODO: ajuste para o domínio final
-Sitemap: https://clubedolivro.caminhoanglicano.com.br/sitemap.xml
+# Páginas de pós-compra não devem ser indexadas
+Disallow: /obrigado
+Disallow: /quase-la
+
+Sitemap: https://clube.caminhoanglicano.com.br/sitemap.xml
