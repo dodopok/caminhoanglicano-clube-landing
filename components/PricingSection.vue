@@ -26,7 +26,12 @@
             <li>✔️ Entrevista inédita com Thomas McKenzie</li>
             <li class="pricing__feature-off">✖️ Ebook do livro</li>
           </ul>
-          <a :href="SITE.checkoutClube" class="btn btn--ghost btn--block" rel="noopener">
+          <a
+            :href="SITE.checkoutClube"
+            class="btn btn--ghost btn--block"
+            rel="noopener"
+            @click="trackCheckout(120)"
+          >
             Participar do clube
           </a>
         </article>
@@ -47,7 +52,12 @@
               ✔️ <strong>Ebook "O Caminho Anglicano"</strong> enviado via Amazon (Kindle)
             </li>
           </ul>
-          <a :href="SITE.checkoutClubeComLivro" class="btn btn--primary btn--block" rel="noopener">
+          <a
+            :href="SITE.checkoutClubeComLivro"
+            class="btn btn--primary btn--block"
+            rel="noopener"
+            @click="trackCheckout(130)"
+          >
             Quero o clube + ebook
           </a>
           <p class="pricing__hint">Apenas R$ 10 a mais pelo livro completo</p>
@@ -70,6 +80,11 @@
 
 <script setup lang="ts">
 import { SITE } from '~/utils/site'
+
+function trackCheckout(valor: number) {
+  const w = window as { fbq?: (a: string, b: string, c?: object) => void }
+  if (w.fbq) w.fbq('track', 'InitiateCheckout', { value: valor, currency: 'BRL' })
+}
 </script>
 
 <style scoped>

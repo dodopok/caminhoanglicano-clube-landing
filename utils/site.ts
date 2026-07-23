@@ -14,6 +14,23 @@ export const SITE = {
   inicio: '2026-08-05',
   fim: '2026-09-02',
   horario: '20h (horário de Brasília)',
+
+  // Fim das inscrições (horário de Brasília). A contagem regressiva e a troca
+  // para "inscrições encerradas" usam esta data automaticamente.
+  inscricoesAte: '2026-08-04T23:59:59-03:00',
+
+  // TODO: cole o ID do vídeo do YouTube com o trecho da entrevista
+  // (ex.: para youtube.com/watch?v=abc123, o ID é "abc123")
+  youtubeTeaserId: '',
+
+  // TODO: cole o link do grupo/lista do WhatsApp para lembretes
+  whatsappGrupo: 'https://chat.whatsapp.com/SEU-LINK-AQUI',
+
+  // TODO: cole o ID do Pixel da Meta (só números). Enquanto vazio, nada é carregado.
+  metaPixelId: '',
+
+  // TODO (opcional): ID do Google Analytics 4, formato "G-XXXXXXX"
+  ga4Id: '',
 }
 
 export const ENCONTROS = [

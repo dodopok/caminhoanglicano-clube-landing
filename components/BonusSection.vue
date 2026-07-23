@@ -17,6 +17,21 @@
           <strong>antes de qualquer outra pessoa</strong>: o próprio autor falando sobre o
           Caminho que você estará trilhando na leitura.
         </p>
+        <div class="bonus__video">
+          <iframe
+            v-if="SITE.youtubeTeaserId"
+            :src="`https://www.youtube-nocookie.com/embed/${SITE.youtubeTeaserId}`"
+            title="Trecho da entrevista inédita com Thomas McKenzie"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+          <div v-else class="bonus__video-placeholder">
+            <span class="bonus__play">▶</span>
+            <p>Trecho da entrevista em breve</p>
+          </div>
+        </div>
         <ul class="bonus__list">
           <li>🎬 Vídeo inédito e exclusivo da entrevista com Thomas McKenzie</li>
           <li>📂 Materiais digitais exclusivos de apoio à leitura</li>
@@ -28,7 +43,9 @@
   </section>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { SITE } from '~/utils/site'
+</script>
 
 <style scoped>
 .bonus {
@@ -55,6 +72,56 @@
 .bonus__text {
   font-size: 1.1rem;
   opacity: 0.95;
+}
+
+.bonus__video {
+  max-width: 640px;
+  margin: 32px auto 0;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(255, 253, 249, 0.25);
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.35);
+}
+
+.bonus__video iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.bonus__video-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(160deg, var(--blue-dark), #1f3038);
+}
+
+.bonus__play {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--gold);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-left: 5px;
+}
+
+.bonus__video-placeholder p {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.85;
 }
 
 .bonus__list {
