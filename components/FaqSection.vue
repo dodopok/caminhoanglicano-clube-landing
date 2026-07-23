@@ -5,8 +5,8 @@
         <span class="eyebrow">Perguntas frequentes</span>
         <h2 class="section-title">Ainda com <span class="accent-blue">dúvidas?</span></h2>
         <p class="section-lead">
-          Se a sua pergunta não estiver aqui, fale com a gente — o livro responde centenas de
-          perguntas, e nós respondemos as suas também. 😉
+          Respostas diretas sobre acesso, pagamento e o funcionamento do clube. O livro
+          responde centenas de perguntas. As suas, a gente responde aqui.
         </p>
       </div>
       <div class="faq__list">

@@ -32,6 +32,11 @@ html {
   scroll-padding-top: 90px;
 }
 
+html,
+body {
+  overflow-x: clip;
+}
+
 body {
   margin: 0;
   font-family: var(--font-body);
@@ -52,7 +57,16 @@ body {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
+}
+
+h1,
+h2,
+h3,
+p,
+blockquote {
+  overflow-wrap: break-word;
 }
 
 h1,

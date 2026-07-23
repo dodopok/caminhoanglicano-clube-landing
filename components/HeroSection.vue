@@ -8,15 +8,15 @@
           <span class="hero__title-blue">traduziu o livro</span>
         </h1>
         <p class="hero__lead">
-          Um clube do livro ao vivo para conhecer — ou se aprofundar — na tradição anglicana.
-          São <strong>5 encontros online</strong>, toda quarta-feira às 20h, guiados pelo
-          <strong>Rev. Douglas Araujo</strong>, tradutor da obra, e pela
-          <strong>Rev. Cynthia Muniz</strong>.
+          O livro que já apresentou o anglicanismo a milhares de cristãos, lido em
+          <strong>5 encontros ao vivo</strong> com o <strong>Rev. Douglas Araujo</strong>,
+          tradutor da obra, e a <strong>Rev. Cynthia Muniz</strong>. Toda quarta-feira, às
+          20h, de 05/08 a 02/09.
         </p>
         <ul class="hero__bullets">
-          <li>📖 Leitura guiada do clássico de Thomas McKenzie</li>
-          <li>🎥 Entrevista <strong>inédita</strong> com o autor, nunca publicada</li>
-          <li>🔁 Gravações disponíveis se você perder algum encontro</li>
+          <li>📖 Você termina o livro entendendo a tradição anglicana de verdade</li>
+          <li>🎥 Assiste em primeira mão a uma entrevista inédita com o autor</li>
+          <li>🔁 Perdeu um encontro? A gravação fica disponível para você</li>
         </ul>
         <div class="hero__actions">
           <a href="#planos" class="btn btn--primary btn--lg">Quero participar do clube</a>
@@ -52,6 +52,10 @@
   grid-template-columns: 1.25fr 0.75fr;
   gap: 56px;
   align-items: center;
+}
+
+.hero__inner > * {
+  min-width: 0;
 }
 
 .hero__title {

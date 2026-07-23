@@ -3,12 +3,12 @@
     <div class="container">
       <span class="eyebrow">Como funciona</span>
       <h2 class="section-title">
-        Muito mais que um clube de leitura:
-        <span class="accent-red">uma jornada guiada</span> pela tradição anglicana
+        Ler sozinho, todo mundo começa.
+        <span class="accent-red">Terminar é outra história.</span>
       </h2>
       <p class="section-lead">
-        Você não vai ler sozinho. A cada semana, um encontro ao vivo para conversar sobre o
-        livro, tirar dúvidas e caminhar em comunidade.
+        No clube você lê no ritmo certo, discute cada parte ao vivo com quem entende do
+        assunto e chega à última página com suas perguntas respondidas. Funciona assim:
       </p>
       <div class="how__grid">
         <article v-for="item in items" :key="item.titulo" class="how__card">
@@ -27,25 +27,25 @@ const items = [
     icone: '🗓️',
     titulo: '5 encontros ao vivo',
     descricao:
-      'Toda quarta-feira, às 20h, de 05/08 a 02/09. Encontros online, com espaço para perguntas e conversa de verdade.',
+      'Toda quarta-feira, às 20h, de 05/08 a 02/09. Encontro online, com espaço para suas perguntas e conversa de verdade.',
   },
   {
     icone: '🎥',
     titulo: 'Gravações incluídas',
     descricao:
-      'Não pode ao vivo em alguma semana? Todas as gravações ficam disponíveis para você assistir quando quiser.',
+      'A vida acontece. Se você perder uma quarta, a gravação estará lá esperando por você.',
   },
   {
     icone: '📚',
     titulo: 'Materiais exclusivos',
     descricao:
-      'Conteúdos digitais preparados especialmente para o clube, para acompanhar e aprofundar a leitura de cada semana.',
+      'Conteúdos digitais preparados para o clube, que acompanham a leitura de cada semana e aprofundam o que o livro apresenta.',
   },
   {
     icone: '🧭',
     titulo: 'Guias experientes',
     descricao:
-      'O tradutor do livro e uma teóloga especialista caminhando com você — contexto, bastidores e aplicação prática.',
+      'O tradutor do livro e uma teóloga especialista em Novo Testamento lendo com você. Contexto, bastidores e aplicação prática.',
   },
 ]
 </script>

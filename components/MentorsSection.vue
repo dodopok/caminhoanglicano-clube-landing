@@ -3,22 +3,36 @@
     <div class="container">
       <span class="eyebrow">Quem guia o clube</span>
       <h2 class="section-title">
-        Dois pastores, <span class="accent-blue">uma mesma paixão</span> pelo Caminho
+        Quem vai <span class="accent-blue">ler com você</span>
       </h2>
       <div class="mentors__grid">
         <article class="mentors__card">
-          <div class="mentors__avatar mentors__avatar--red">DA</div>
+          <img
+            class="mentors__avatar mentors__avatar--red"
+            src="/images/douglas.avif"
+            alt="Foto do Rev. Douglas Araujo"
+            loading="lazy"
+            width="120"
+            height="120"
+          />
           <h3>Rev. Douglas Araujo</h3>
           <p class="mentors__role">Tradutor de "O Caminho Anglicano"</p>
           <p>
-            Presbítero anglicano e criador do canal <strong>Teologueiros</strong>, com mais de 7
-            anos produzindo conteúdo teológico no YouTube. Formado pelo Seminário Anglicano de
-            Teologia, é especialista em Anglicanismo e Liturgia. Traduziu a obra de Thomas
-            McKenzie para o português — e conheceu o autor pessoalmente.
+            Presbítero anglicano e criador do canal <strong>Teologueiros</strong>, com mais de
+            7 anos produzindo conteúdo teológico no YouTube. Formado pelo Seminário Anglicano
+            de Teologia, é especialista em Anglicanismo e Liturgia. Traduziu a obra de Thomas
+            McKenzie para o português e entrevistou o autor pessoalmente.
           </p>
         </article>
         <article class="mentors__card">
-          <div class="mentors__avatar mentors__avatar--blue">CM</div>
+          <img
+            class="mentors__avatar mentors__avatar--blue"
+            src="/images/cynthia.avif"
+            alt="Foto da Rev. Cynthia Muniz"
+            loading="lazy"
+            width="120"
+            height="120"
+          />
           <h3>Rev. Cynthia Muniz</h3>
           <p class="mentors__role">Teóloga e professora</p>
           <p>
@@ -52,25 +66,20 @@
 }
 
 .mentors__avatar {
-  width: 72px;
-  height: 72px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-heading);
-  font-weight: 800;
-  font-size: 1.4rem;
-  color: var(--cream-soft);
+  object-fit: cover;
   margin-bottom: 18px;
+  border: 4px solid var(--cream-dark);
 }
 
 .mentors__avatar--red {
-  background: var(--red);
+  border-color: var(--red);
 }
 
 .mentors__avatar--blue {
-  background: var(--blue);
+  border-color: var(--blue);
 }
 
 .mentors__card h3 {

@@ -2,8 +2,8 @@
   <div class="urgency">
     <div class="container urgency__inner">
       <p>
-        ⏳ <strong>Inscrições abertas até 04/08</strong> — o primeiro encontro é dia
-        05/08, às 20h. <a href="#planos">Garanta sua vaga →</a>
+        ⏳ <strong>Inscrições abertas até 04/08.</strong> O primeiro encontro é dia
+        05/08, às 20h. <a href="#planos">Garanta sua vaga</a>
       </p>
     </div>
   </div>
