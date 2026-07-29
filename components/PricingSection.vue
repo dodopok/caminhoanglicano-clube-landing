@@ -1,5 +1,5 @@
 <template>
-  <section id="planos" class="section pricing">
+  <section class="section pricing">
     <div class="container">
       <div class="text-center pricing__head">
         <span class="eyebrow">Inscrição</span>
@@ -11,7 +11,7 @@
           Hotmart, com opção de parcelamento no cartão.
         </p>
       </div>
-      <div class="pricing__grid">
+      <div id="planos" class="pricing__grid">
         <article class="pricing__card">
           <h3>Clube do Livro</h3>
           <p class="pricing__desc">Para quem já tem o livro ou vai adquirir por conta própria.</p>
@@ -108,7 +108,7 @@ function trackCheckout(valor: number) {
   grid-template-columns: 1fr 1fr;
   gap: 26px;
   max-width: 860px;
-  margin: 48px auto 0;
+  margin: 36px auto 0;
   align-items: stretch;
 }
 
