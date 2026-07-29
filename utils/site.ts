@@ -21,7 +21,7 @@ export const SITE = {
 
   // TODO: cole o ID do vídeo do YouTube com o trecho da entrevista
   // (ex.: para youtube.com/watch?v=abc123, o ID é "abc123")
-  youtubeTeaserId: '',
+  youtubeTeaserId: 'KlKxzorcBpc',
 
   // Link do grupo do Telegram (lembretes, materiais e links dos encontros)
   telegramGrupo: 'https://t.me/+lBWaJRzMUV4xZjcx',
