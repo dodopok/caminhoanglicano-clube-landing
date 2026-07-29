@@ -18,7 +18,7 @@
         </p>
         <template #fallback>
           <p>
-            ⏳ <strong>Inscrições abertas até 04/08.</strong> O primeiro encontro é dia
+            ⏳ <strong>Inscrições abertas até quinta-feira, 06/08, às 12h.</strong> O primeiro encontro é dia
             05/08, às 20h. <a href="#planos">Garanta sua vaga</a>
           </p>
         </template>

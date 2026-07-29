@@ -7,8 +7,8 @@
           Escolha como quer <span class="accent-red">trilhar o Caminho</span>
         </h2>
         <p class="section-lead pricing__lead">
-          Inscrições até <strong>04/08</strong>. Pagamento seguro pela Hotmart, com opção de
-          parcelamento no cartão.
+          Inscrições até <strong>quinta-feira, 06/08, às 12h</strong>. Pagamento seguro pela
+          Hotmart, com opção de parcelamento no cartão.
         </p>
       </div>
       <div class="pricing__grid">

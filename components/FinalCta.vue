@@ -10,7 +10,9 @@
         gravações incluídas · 7 dias de garantia
       </p>
       <a href="#planos" class="btn btn--light btn--lg">Garantir minha vaga agora</a>
-      <p class="final__small">Inscrições encerram em 04/08 — não deixe para a última hora.</p>
+      <p class="final__small">
+        Inscrições encerram quinta-feira, 06/08, às 12h — não deixe para a última hora.
+      </p>
     </div>
   </section>
 </template>

@@ -6,9 +6,9 @@ export const SITE = {
   // Domínio final do site (usado em SEO/Open Graph)
   url: 'https://clube.caminhoanglicano.com.br',
 
-  // Links de checkout da Hotmart (produto W106849662K, ofertas por ?off=)
-  checkoutClube: 'https://pay.hotmart.com/W106849662K?off=x38ny3lg', // R$ 120 — só o clube
-  checkoutClubeComLivro: 'https://pay.hotmart.com/W106849662K?off=7gcuuxen', // R$ 130 — clube + ebook
+  // Links de checkout da Hotmart (produto K106934450T, ofertas por ?off=)
+  checkoutClube: 'https://pay.hotmart.com/K106934450T?off=2nwqjld4', // R$ 120 — só o clube
+  checkoutClubeComLivro: 'https://pay.hotmart.com/K106934450T?off=y9evwgh4', // R$ 130 — clube + ebook
 
   nome: 'Clube do Livro — O Caminho Anglicano',
   inicio: '2026-08-05',
@@ -17,7 +17,7 @@ export const SITE = {
 
   // Fim das inscrições (horário de Brasília). A contagem regressiva e a troca
   // para "inscrições encerradas" usam esta data automaticamente.
-  inscricoesAte: '2026-08-04T23:59:59-03:00',
+  inscricoesAte: '2026-08-06T12:00:00-03:00',
 
   // TODO: cole o ID do vídeo do YouTube com o trecho da entrevista
   // (ex.: para youtube.com/watch?v=abc123, o ID é "abc123")
